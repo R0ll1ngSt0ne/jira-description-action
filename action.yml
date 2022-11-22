@@ -11,6 +11,9 @@ inputs:
   jira-base-url:
     description: 'The subdomain of JIRA cloud that you use to access it. Ex: "https://your-domain.atlassian.net"'
     required: true
+  rest-api-suffix:
+    description: 'The suffix for the Jira REST API'
+    required: false
   use:
     description: 'Where to look for issue key: branch | pr-title | both'
     required: false
