@@ -105,3 +105,4 @@ custom-issue-number-regexp: '-(\d+)'
 bugfix/prj15-239-click -> MYPROJ-239
 15-bugfix -> null
 ```
+ 
