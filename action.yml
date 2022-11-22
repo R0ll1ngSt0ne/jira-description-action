@@ -14,6 +14,7 @@ inputs:
   rest-api-suffix:
     description: 'The suffix for the Jira REST API'
     required: false
+    default: '/rest/api/3'
   use:
     description: 'Where to look for issue key: branch | pr-title | both'
     required: false
